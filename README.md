@@ -32,7 +32,7 @@ tensorboard --logdir saved_results --port my_port --host 0.0.0.0
 ```shell script
 python eval.py --savedir saved_results --exp_name anonymous_run --max_sent_len 20 --model_path path_of_model_to_eval
 ```
-If you dont specify `--model_path`, best model will be evaluated.
+If you don't specify `--model_path`, best model will be evaluated.
 ## Results
 Results of my implementation are not chosen. I just run once for each dataset.
 My implementation is comparable to official claim.
