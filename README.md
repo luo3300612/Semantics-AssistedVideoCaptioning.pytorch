@@ -17,7 +17,7 @@ If you want to train on msvd with default parameters:
 ```shell script
 python train.py --cfg configs/msvd_default.yml --savedir saved_results --exp_name anonymous_run
 ```
-Remember to create savedir by `mkdir`. And `--exp_name` is a name you give to this run.
+Remember to create savedir by `mkdir`. `--exp_name` is the name you give to this run.
 
 For training on msrvtt, just change `--cfg` to `configs/msrvtt_default.yml`. It
 takes about 90 min to train on msvd, 5h to train on msr-vtt.
@@ -67,7 +67,7 @@ Official implementation do dropout after schedule sampling. I do it before.
 ## Acknowledgement
 Thanks the original tensorflow implementation.
 
-## reference
+## References
 * adam problem 
     * https://discuss.pytorch.org/t/pytorch-adam-vs-tensorflow-adam/74471
     * https://stackoverflow.com/questions/57824804/epsilon-parameter-in-adam-opitmizer
