@@ -43,7 +43,7 @@ My implementation is comparable to official claim.
 |mine|61.2|76.6|38.5|106.5|
 
 ### MSR-VTT
-|Model|B-4|C|M|R|
+|Model|B-4|R|M|C|
 |---|---|---|---|---|
 |official|43.8|62.4|28.9|51.4|
 |mine|44.4|62.7|28.8|50.7|
