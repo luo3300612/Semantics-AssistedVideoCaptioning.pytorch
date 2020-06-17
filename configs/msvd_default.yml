@@ -1,0 +1,33 @@
+# data
+dataset: msvd
+corpus: ./data/msvd_corpus.pkl
+reseco: ./data/msvd_resnext_eco.npy
+tag: ./data/msvd_semantic_tag_e1000.npy
+ref: ./data/msvd_ref.pkl
+val_start_idx: 1200
+val_end_idx: 1300
+test_start_idx: 1300
+test_end_idx: 1970
+num_workers: 0
+
+# model
+model: standard
+embedding_dim: 300
+hidden_dim: 512
+
+# learning
+lr: 0.0004
+lr_decay: 1
+lr_decay_every: 999999
+batch_size: 64
+n_epoch: 50
+max_sent_len: 20
+
+# checkpoint
+exp_name: anonymous_run
+savedir: saved_results
+
+# sample
+schedule_sample_method: multinomial
+schedule_sample_prob: 0
+schedule_sample_ratio: 0.008

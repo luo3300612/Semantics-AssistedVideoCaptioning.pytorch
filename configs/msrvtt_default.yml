@@ -1,0 +1,33 @@
+# data
+dataset: msrvtt
+corpus: ./data/msrvtt_corpus.pkl
+reseco: ./data/msrvtt_resnext_eco.npy
+tag: ./data/msrvtt_e800_tag_feats.npy
+ref: ./data/msrvtt_ref.pkl
+val_start_idx: 6513
+val_end_idx: 7010
+test_start_idx: 7010
+test_end_idx: 10000
+num_workers: 0
+
+# model
+model: standard
+embedding_dim: 300
+hidden_dim: 512
+
+# learning
+lr: 0.0004
+lr_decay: 0.316
+lr_decay_every: 10
+batch_size: 64
+n_epoch: 50
+max_sent_len: 20
+
+# checkpoint
+exp_name: anonymous_run
+savedir: saved_results2
+
+# sample
+schedule_sample_method: multinomial
+schedule_sample_prob: 0
+schedule_sample_ratio: 0.008
