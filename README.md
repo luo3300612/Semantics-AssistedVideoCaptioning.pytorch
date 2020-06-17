@@ -20,7 +20,7 @@ python train.py --cfg configs/msvd_default.yml --savedir saved_results --exp_nam
 Remember to create savedir by `mkdir`. `--exp_name` is the name you give to this run.
 
 For training on msrvtt, just change `--cfg` to `configs/msrvtt_default.yml`. It
-takes about 90 min to train on msvd, 5h to train on msr-vtt.
+takes about 90 min to train on msvd, 5h to train on msr-vtt (on GTX 1080Ti).
 
 For more details about configs, please see `opts.py` and yaml files in ./configs
 ### Babysitting
