@@ -11,7 +11,7 @@ def collate_fn(batch, split, padding_idx):
         batched_captions = np.ones((len(batch), max_len), dtype='int') * padding_idx
         for i, (_, _, caption) in enumerate(batch):
             batched_captions[i, :len(caption)] = caption
-        batched_captions = torch.from_numpy(batched_captions)
+        batched_captions = torch.from_numpy(batched_captions).long()
     else:
         batched_captions = [caption for _, _, caption in batch]
 
