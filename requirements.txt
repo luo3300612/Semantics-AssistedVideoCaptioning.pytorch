@@ -13,7 +13,7 @@ Keras-Preprocessing==1.1.2
 Markdown==3.2.2
 mock==4.0.2
 numpy==1.18.4
-protobuf==3.12.1
+protobuf==3.15.0
 PyYAML==5.4
 scikit-learn==0.23.1
 scipy==1.4.1
