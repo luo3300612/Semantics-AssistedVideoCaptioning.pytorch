@@ -66,7 +66,7 @@ Official implementation do dropout after schedule sampling. I do it before.
 * reinforcement learning
 
 ## Acknowledgement
-Thanks the original tensorflow implementation.
+Thank for the original tensorflow implementation.
 
 ## References
 * adam problem 
